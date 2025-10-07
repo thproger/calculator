@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Калькулятор</title>
+</head>
+<body>
+    <main>
+        <div class="form">
+            <label for="fn">Перше число</label>
+            <input type="number" name="firstNumber" id="fn">
+            <label for="fn-system">Система числення</label>
+            <select id="fn-system">
+                <button>
+                    <selectedcontent></selectedcontent>
+                </button>
+                <option value="2">
+                    Двійкова
+                </option>
+                <option value="8">
+                    Вісімкова
+                </option>
+                <option value="10">
+                    Десяткова
+                </option>
+                <option value="16">
+                    Шістандцяткова
+                </option>
+            </select>
+            <label for="fn">Друге число</label>
+            <input type="number" name="secondNumber" id="sn">
+            <label for="sn-system">Система числення</label>
+            <select id="sn-system">
+                <button>
+                    <selectedcontent></selectedcontent>
+                </button>
+                <option value="2">
+                    Двійкова
+                </option>
+                <option value="8">
+                    Вісімкова
+                </option>
+                <option value="10">
+                    Десяткова
+                </option>
+                <option value="16">
+                    Шістандцяткова
+                </option>
+            </select>
+            <label for="operation">Операція</label>
+            <select id="operation">
+                <button>
+                    <selectedcontent></selectedcontent>
+                </button>
+                <option value="+">
+                    +
+                </option>
+                <option value="-">
+                    -
+                </option>
+            </select>
+            <label for="sn-system">Вихідна система числення</label>
+            <select id="result-system">
+                <button>
+                    <selectedcontent></selectedcontent>
+                </button>
+                <option value="2">
+                    Двійкова
+                </option>
+                <option value="8">
+                    Вісімкова
+                </option>
+                <option value="10">
+                    Десяткова
+                </option>
+                <option value="16">
+                    Шістандцяткова
+                </option>
+            </select>
+            <button>Порахувати</button>
+            <div class="result">
+                <h4>Результат</h4>
+                <span></span>
+            </div>
+    </div>
+    </main>
+    <script src="./script.js"></script>
+</body>
+</html>
