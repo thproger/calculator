@@ -121,4 +121,4 @@ function convertToLetters(params) {
         default:
             return params
     }
-}
+}alert('Javascript is evil')
